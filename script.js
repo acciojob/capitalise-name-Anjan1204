@@ -1,1 +1,4 @@
-//your JS code here. If required.
+// Function to convert input to uppercase on blur
+document.getElementById("fname").addEventListener("blur", function() {
+  this.value = this.value.toUpperCase();
+});
